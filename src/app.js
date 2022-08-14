@@ -5,6 +5,8 @@ const geocode = require('./utlis/geocode')
 const forecast = require('./utlis/forecast')
 
 const app = express()
+
+const port = process.env.PORT || 3000
 const publicDirectoryPath = path.join(__dirname, '../public')
 const veiwChang = path.join(__dirname, '../tamplates/views')
 const partial = path.join(__dirname, '../tamplates/partials')
@@ -77,6 +79,6 @@ app.get('*', (req, res) => {
     console.log("123123");
 })
 
-app.listen(3000, () => {
-    console.log('Server is up on port 3000.')
+app.listen(port, () => {
+    console.log('Server is up on port' + port)
 })
