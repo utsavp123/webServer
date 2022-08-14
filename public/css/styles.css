@@ -1,0 +1,35 @@
+h1 {
+    color: grey;
+}
+body{
+    margin: 2% 12%;
+}
+img {
+    width: 250px;
+}
+.navbar{
+    text-align: center;
+}
+.navbar a{ 
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.3rem;
+    text-align: center; 
+}
+.MainHeader{
+    text-align: center;
+    border: 1px solid blueviolet;
+    border-radius: 11px;
+    margin: 1% 40%;
+    /* position: absolute; */
+    color: blueviolet;
+    background: cornsilk;
+}
+.FooterSection{
+    position: absolute;
+    bottom: 0;
+    background: cornflowerblue;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
